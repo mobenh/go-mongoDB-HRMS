@@ -15,7 +15,7 @@ Golang HRMS APIs with MongoDB. Create, read, update and delete HR employee with 
 ## Executing program
 * Download the repository to your computer, go to project file, and run the code
 ```
-git clone https://github.com/sayedh/go-mongoDB-HRMS
+git clone https://github.com/mobenh/go-mongoDB-HRMS
 cd go-mongoDB-HRMS
 go mod tidy
 go run main.go

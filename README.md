@@ -22,7 +22,7 @@ go run main.go
 ```
 
 * Test APIs with Postman
-  * Create a POST request to add data with http://localhost:3000/employee
+  * Create a POST request to add data with localhost:3000/employee
   ```
   {
     "name":"Moben Haq",
@@ -30,8 +30,8 @@ go run main.go
     "age":29
   }
   ```
-  * Create a GET request to get all data with http://localhost:3000/employee
-  * Create a PUT request to update employee data with http://localhost:3000/employee/627af1fa0903ad2cbc8f6c21 (<-- the 627xxxxxxx is the ID of the data, can be changed to desired data that needs to be updated)
+  * Create a GET request to get all data with localhost:3000/employee
+  * Create a PUT request to update employee data with localhost:3000/employee/627af1fa0903ad2cbc8f6c21 (<-- the 627xxxxxxx is the ID of the data, can be changed to desired data that needs to be updated)
   ```
   {
     "name":"Moben Haq",
@@ -39,4 +39,4 @@ go run main.go
     "age":29
   }
   ```
-  * Create a DELETE request with http://localhost:3000/employee/627af1fa0903ad2cbc8f6c21 (<-- the 627xxxxxxx is the ID of the data, can be changed to desired data that needs to be deleted)
+  * Create a DELETE request with localhost:3000/employee/627af1fa0903ad2cbc8f6c21 (<-- the 627xxxxxxx is the ID of the data, can be changed to desired data that needs to be deleted)
